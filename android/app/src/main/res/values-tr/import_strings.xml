@@ -1,0 +1,5 @@
+<resources>
+  <string name="action_import_data">Verileri içe aktar</string><string name="import_dialog_title">DayBricks verilerini içe aktar</string>
+  <string name="import_dialog_help">“Birleştir” yerel şablonları korur ve eşleşenleri değiştirir. “Tümünü değiştir” önce yerel şablonları siler. Ayarlar her iki durumda da içe aktarılır; takvim seçimi ve API belirteci değişmez.</string>
+  <string name="action_merge">Birleştir</string><string name="action_replace_all">Tümünü değiştir</string><string name="message_import_complete">İçe aktarma tamamlandı</string><string name="error_import_failed">Bu dosya içe aktarılamadı</string>
+</resources>

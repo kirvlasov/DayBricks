@@ -1,0 +1,7 @@
+<resources>
+  <string name="emoji_search_short">ค้นหา / อีโมจิของคุณ</string>
+  <string name="settings_create_activities_in">สร้างกิจกรรมใน</string>
+  <string name="settings_backup_restore">สำรองและกู้คืน</string>
+  <string name="action_export_data">ส่งออก</string>
+  <string name="action_import_short">นำเข้า</string>
+</resources>

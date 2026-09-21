@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="delete_event_confirmation">“%1$s” ইভেন্টটি মুছবেন?</string>
+    <string name="delete_event_series_confirmation">“%1$s” পুনরাবৃত্ত ইভেন্টের পুরো সিরিজ মুছবেন?</string>
+    <string name="action_open_in_calendar">ক্যালেন্ডার অ্যাপে খুলুন</string>
+    <string name="action_close_event">বন্ধ করুন</string>
+    <string name="event_details_all_day">সারাদিন</string>
+    <string name="event_details_location">অবস্থান</string>
+    <string name="event_details_description">বিবরণ</string>
+</resources>

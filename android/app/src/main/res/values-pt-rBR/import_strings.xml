@@ -1,0 +1,5 @@
+<resources>
+  <string name="action_import_data">Importar dados</string><string name="import_dialog_title">Importar dados do DayBricks</string>
+  <string name="import_dialog_help">“Mesclar” mantém os modelos locais e substitui os correspondentes. “Substituir tudo” remove primeiro os modelos locais. As configurações são sempre importadas; o calendário e o token de API não mudam.</string>
+  <string name="action_merge">Mesclar</string><string name="action_replace_all">Substituir tudo</string><string name="message_import_complete">Importação concluída</string><string name="error_import_failed">Não foi possível importar este arquivo</string>
+</resources>

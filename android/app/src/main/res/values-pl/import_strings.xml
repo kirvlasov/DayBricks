@@ -1,0 +1,5 @@
+<resources>
+  <string name="action_import_data">Importuj dane</string><string name="import_dialog_title">Importuj dane DayBricks</string>
+  <string name="import_dialog_help">„Scal” zachowuje lokalne szablony i zastępuje pasujące. „Zastąp wszystko” najpierw usuwa lokalne szablony. Ustawienia są zawsze importowane; wybór kalendarza i token API pozostają bez zmian.</string>
+  <string name="action_merge">Scal</string><string name="action_replace_all">Zastąp wszystko</string><string name="message_import_complete">Import zakończony</string><string name="error_import_failed">Nie udało się zaimportować tego pliku</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+  <string name="action_import_data">Nhập dữ liệu</string><string name="import_dialog_title">Nhập dữ liệu DayBricks</string>
+  <string name="import_dialog_help">“Hợp nhất” giữ các mẫu cục bộ và thay thế mẫu trùng khớp. “Thay thế tất cả” xóa các mẫu cục bộ trước. Cài đặt luôn được nhập; lựa chọn lịch và mã API không thay đổi.</string>
+  <string name="action_merge">Hợp nhất</string><string name="action_replace_all">Thay thế tất cả</string><string name="message_import_complete">Đã nhập xong</string><string name="error_import_failed">Không thể nhập tệp này</string>
+</resources>

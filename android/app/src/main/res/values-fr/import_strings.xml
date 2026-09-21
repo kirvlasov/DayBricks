@@ -1,0 +1,5 @@
+<resources>
+  <string name="action_import_data">Importer des données</string><string name="import_dialog_title">Importer les données DayBricks</string>
+  <string name="import_dialog_help">« Fusionner » conserve les modèles locaux et remplace ceux qui correspondent. « Tout remplacer » supprime d’abord les modèles locaux. Les paramètres sont toujours importés ; le calendrier et le jeton API restent inchangés.</string>
+  <string name="action_merge">Fusionner</string><string name="action_replace_all">Tout remplacer</string><string name="message_import_complete">Importation terminée</string><string name="error_import_failed">Impossible d’importer ce fichier</string>
+</resources>

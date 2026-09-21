@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="delete_event_confirmation">予定「%1$s」を削除しますか？</string>
+    <string name="delete_event_series_confirmation">繰り返し予定「%1$s」の全件を削除しますか？</string>
+    <string name="action_open_in_calendar">カレンダーアプリで開く</string>
+    <string name="action_close_event">閉じる</string>
+    <string name="event_details_all_day">終日</string>
+    <string name="event_details_location">場所</string>
+    <string name="event_details_description">説明</string>
+</resources>

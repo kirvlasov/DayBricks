@@ -1,0 +1,7 @@
+<resources>
+  <string name="emoji_search_short">ابحث / رمزك التعبيري</string>
+  <string name="settings_create_activities_in">أنشئ الأنشطة في</string>
+  <string name="settings_backup_restore">النسخ الاحتياطي والاستعادة</string>
+  <string name="action_export_data">تصدير</string>
+  <string name="action_import_short">استيراد</string>
+</resources>

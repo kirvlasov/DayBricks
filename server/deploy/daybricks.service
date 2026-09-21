@@ -1,0 +1,20 @@
+[Unit]
+Description=DayBricks template sync
+After=network.target
+
+[Service]
+User=daybricks
+Group=daybricks
+ExecStart=/opt/daybricks/daybricks-server
+EnvironmentFile=/etc/daybricks/server.env
+Environment=DAYBRICKS_DATA_DIR=/var/lib/daybricks
+StateDirectory=daybricks
+Restart=on-failure
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="delete_event_confirmation">Delete event “%1$s”?</string>
+    <string name="delete_event_series_confirmation">Delete the entire recurring series “%1$s”?</string>
+  <string name="action_open_calendar_short">Calendar</string>
+    <string name="action_open_in_calendar">Open in calendar app</string>
+    <string name="action_close_event">Close</string>
+    <string name="event_details_all_day">All day</string>
+    <string name="event_details_location">Location</string>
+    <string name="event_details_description">Description</string>
+    <string name="settings_open_events_directly">Open events with another app</string>
+    <string name="settings_open_events_directly_help">Skip the DayBricks event details card when tapping an event.</string>
+    <!--
+      DayBricks localization source catalog
+
+      Translation files belong in sibling Android resource directories:
+        res/values/strings.xml       source language (English)
+        res/values-ru/strings.xml    Russian
+        res/values-de/strings.xml    German
+
+      Every translator-facing entry has a stable key and a context comment. Keep
+      placeholders such as %1$d and %2$s unchanged and in a grammatically useful
+      order. Use <plurals> whenever the surrounding sentence changes with a count.
+
+      Plural translation rules:
+      * Android/CLDR supports zero, one, two, few, many and other. The category
+        names are grammatical labels, not formulas such as "number ends in 1".
+      * Keep only the categories required by the target locale and always provide
+        other. Android selects the category from the active locale and quantity.
+      * English needs one and other. Russian integer counts need one (1, 21, but
+        not 11), few (2-4, 22-24, but not 12-14), and many (0, 5-20, 25-30,
+        and analogous values). Russian other covers decimal quantities; current
+        DayBricks counters are integers, but retaining other is mandatory.
+      * Other languages have different rules: Arabic can use all six categories;
+        languages such as Chinese commonly use only other. Never reproduce these
+        rules in Kotlin and never choose a form from the final digit manually.
+      * Code must call pluralStringResource/getQuantityString with the raw integer
+        both as the selector and as the %1$d formatting argument.
+
+      Locale-derived content that is not a literal string:
+      * planner_date_header_pattern controls the order of weekday, day and month.
+        Weekday and month names must come from the selected app locale.
+      * All clock labels and time ranges use the locale's SHORT time format, so a
+        locale may choose 12-hour or 24-hour time and its own separators.
+      * Numeric values must use locale-aware number formatting when the app is
+        wired to these resources. Durations are whole minutes.
+      * The device time zone still controls instants and DST. "UTC%1$s" is only a
+        disambiguation label for a repeated local hour; the offset itself is data.
+      * Calendar names, account names, event titles, template names and preset
+        names are user/provider data and must never be translated.
+      * To support an in-app language switch, java.time formatters must be created
+        with the selected app locale (not only Locale.getDefault), and Android's
+        per-app locale API must recreate the UI. Resource translation alone does
+        not switch system-generated weekday, month and time text.
+
+      Do not translate glyph-only controls (+, −, ×, ✓, ‹, ›, ⋮, ⌃, ⌄), emoji,
+      the #DayBricks ownership marker, serialized enum values, test tags, URLs,
+      calendar IDs or synchronization protocol fields.
+    -->
+
+    <!-- Brand shown by Android in the launcher and system app surfaces. Product name; normally unchanged. -->
+    <string name="app_name" translatable="false">DayBricks</string>
+
+    <!-- ===== Planner header and navigation ===== -->
+
+    <!-- Pattern for the selected-day heading. EEEE is the localized weekday and MMMM the localized month. Translators may reorder fields and add punctuation. -->
+    <string name="planner_date_header_pattern">EEEE, d MMMM</string>
+    <!-- TalkBack description for the button that shows more hours by reducing vertical scale. -->
+    <string name="action_zoom_out">Zoom out</string>
+    <!-- TalkBack description for the button that shows fewer hours with larger calendar rows. -->
+    <string name="action_zoom_in">Zoom in</string>
+    <!-- TalkBack description for opening application settings. -->
+    <string name="action_open_settings">Settings</string>
+    <!-- TalkBack description for moving the planner to the previous calendar day. -->
+    <string name="action_previous_day">Previous day</string>
+    <!-- TalkBack description for moving the planner to the next calendar day. -->
+    <string name="action_next_day">Next day</string>
+    <!-- TalkBack description for opening the template library. -->
+    <string name="action_open_template_library">Open template library</string>
+    <!-- TalkBack description for closing the template library. -->
+    <string name="action_close_template_library">Close template library</string>
+
+    <!-- Banner shown when DayBricks cannot read the Android calendar. -->
+    <string name="calendar_permission_banner">Connect your calendar to see your day.</string>
+    <!-- Short permission action in the planner banner. -->
+    <string name="action_allow_access">Allow access</string>
+    <!-- Label appended after an all-day event title. %1$s is an event title and must not be translated. -->
+    <string name="event_all_day">%1$s · All day</string>
+
+    <!-- ===== Event placement editor ===== -->
+
+    <!-- Label and compact edit-dialog title for the event title field. -->
+    <string name="event_title_prompt">What will you do?</string>
+    <!-- Fallback title for a draft whose title is unexpectedly empty. -->
+    <string name="event_new_block_fallback">New activity</string>
+    <!-- Button that accepts a draft and creates the calendar event. -->
+    <string name="action_confirm_block">Confirm activity</string>
+    <!-- Button that discards the current event-placement draft. -->
+    <string name="action_cancel_placement">Cancel placement</string>
+    <!-- Generic affirmative action that closes a dialog after edits. -->
+    <string name="action_done">Done</string>
+    <!-- Generic action that closes a dialog without applying the operation. -->
+    <string name="action_cancel">Cancel</string>
+    <!-- Opens placement without selecting one of a template's presets. Ellipsis indicates a further editor step. -->
+    <string name="action_custom">Custom…</string>
+
+    <!-- Short visual duration label used on the ruler. %1$d is a whole minute count; keep it compact. -->
+    <string name="duration_minutes_short">%1$d min</string>
+    <!-- Full duration phrase for TalkBack. Quantity is an integer minute count. Translators must add every plural category required by their locale; code uses pluralStringResource. -->
+    <plurals name="duration_minutes_accessibility">
+        <!-- %1$d is the duration. -->
+        <item quantity="one">%1$d minute</item>
+        <item quantity="other">%1$d minutes</item>
+    </plurals>
+    <!-- TalkBack name of the horizontal control that changes event duration. -->
+    <string name="duration_control">Duration</string>
+    <!-- TalkBack custom action that increases duration by one minute. -->
+    <string name="duration_increase">Increase</string>
+    <!-- TalkBack custom action that decreases duration by one minute. -->
+    <string name="duration_decrease">Decrease</string>
+    <!-- Time range displayed for a draft or event. %1$s and %2$s are locale-formatted clock times. -->
+    <string name="time_range">%1$s → %2$s</string>
+    <!-- Draft summary. Times are locale-formatted, and %3$d is a whole minute count. -->
+    <string name="draft_time_summary">%1$s → %2$s · %3$d min</string>
+    <!-- Offset shown only when a local wall-clock hour occurs twice during a DST transition. %1$s is an offset such as +02:00. -->
+    <string name="utc_offset_label">UTC%1$s</string>
+
+    <!-- ===== Reminders ===== -->
+
+    <!-- Field label for the reminder override on the event-placement screen. -->
+    <string name="reminder_label">Reminder</string>
+    <!-- Field label for the reminder stored in a template. -->
+    <string name="reminder_default_label">Default reminder</string>
+    <!-- Grammatical answer to reminder_label, reminder_default_label, or settings_default_reminder: no notification. -->
+    <string name="reminder_none">None</string>
+    <!-- Grammatical answer to reminder_label, reminder_default_label, or settings_default_reminder: notify when the event begins. -->
+    <string name="reminder_at_start">At start time</string>
+    <!-- Grammatical answer to the reminder labels: notify this many minutes before. %1$d is a whole minute count. Translators must add every plural category required by their locale. -->
+    <plurals name="reminder_minutes_before">
+        <item quantity="one">%1$d min before</item>
+        <item quantity="other">%1$d min before</item>
+    </plurals>
+    <!-- Grammatical answer to the reminder labels: notify one hour before. -->
+    <string name="reminder_one_hour_before">1 hour before</string>
+
+    <!-- ===== Template library ===== -->
+
+    <!-- TalkBack description for the drag handle that closes a bottom template panel. -->
+    <string name="action_close_template_panel">Close template panel</string>
+    <!-- TalkBack description for a close icon inside a transient template panel. -->
+    <string name="action_close_templates">Close templates</string>
+    <!-- Heading of the reusable template library. -->
+    <string name="template_library_title">Your templates</string>
+    <!-- Supporting line below the template-library heading. -->
+    <string name="template_library_subtitle">Choose one. Make time for it.</string>
+    <!-- Creates a new activity template. -->
+    <string name="action_add_template">+ Add new template</string>
+    <!-- Empty-state guidance shown when no templates exist. -->
+    <string name="template_empty_state">Start with something you do often: training, cooking, or a little time to focus.</string>
+    <!-- Template duration summary when the template has no presets. %1$d is its default duration. -->
+    <string name="template_duration_summary">%1$d min</string>
+    <!-- Count appended to a template duration. %1$d is an integer preset count. Translators must add every plural category required by their locale. -->
+    <plurals name="template_presets_count">
+        <item quantity="one">%1$d preset</item>
+        <item quantity="other">%1$d presets</item>
+    </plurals>
+    <!-- TalkBack description for a template's overflow menu. %1$s is the user-authored template name. -->
+    <string name="template_options_for">Options for %1$s</string>
+    <!-- Template overflow-menu action. -->
+    <string name="action_edit">Edit</string>
+    <!-- TalkBack label for editing one activity inside a template. %1$s is the user-authored activity name. -->
+    <string name="action_edit_activity">Edit %1$s</string>
+    <!-- Template overflow-menu action that moves the item earlier in the list. -->
+    <string name="action_move_up">Move up</string>
+    <!-- Template overflow-menu action that moves the item later in the list. -->
+    <string name="action_move_down">Move down</string>
+    <!-- Template overflow-menu action that permanently deletes the template, not calendar events. -->
+    <string name="action_delete">Delete</string>
+
+    <!-- ===== Template editor and emoji picker ===== -->
+
+    <!-- Dialog title when creating a reusable template that can contain activities. -->
+    <string name="template_editor_new_title">Create template</string>
+    <!-- Dialog title when changing a reusable template that can contain activities. -->
+    <string name="template_editor_edit_title">Edit template</string>
+    <!-- Template-name input label. -->
+    <string name="field_name">Name</string>
+    <!-- Shared button text for the optional emoji on either a template or an activity. -->
+    <string name="emoji_choose_optional">Emoji</string>
+    <string name="emoji_search_hint">Search or enter one emoji</string>
+    <string name="field_description">Description</string>
+    <!-- Optional duration of one activity inside a template. The numeric value is measured in minutes. -->
+    <string name="activity_option_duration_label">Duration</string>
+    <string name="action_add_activity_option">Add activity</string>
+    <string name="action_remove_activity_option">Remove activity option</string>
+    <string name="action_resize_template_panel">Resize template panel</string>
+    <!-- Button text when replacing an existing activity icon. -->
+    <string name="emoji_change">Change activity icon</string>
+    <!-- Input label for a template's default event duration. -->
+    <string name="template_default_duration_label">Default duration, minutes</string>
+    <!-- Validation guidance for template duration. -->
+    <string name="template_duration_help">1–720 minutes. Any whole number.</string>
+    <!-- Heading for the list of activities contained by a template. -->
+    <string name="template_presets_optional">Activities in this template</string>
+    <!-- Activity-option guidance. The pipe is literal syntax and must remain. -->
+    <string name="template_presets_help">Add activities you may want to schedule from this template. Each activity can have its own emoji, duration, and helpful instructions.</string>
+    <!-- Saves a new or edited template. -->
+    <string name="action_save_template">Save template</string>
+    <!-- Shared icon-picker title for either a template or an activity. -->
+    <string name="emoji_picker_title">Choose an icon</string>
+    <!-- Removes the optional emoji from a template. -->
+    <string name="emoji_no_icon">No icon</string>
+
+    <!-- ===== Settings: calendars ===== -->
+
+    <!-- Settings section selecting the single writable calendar used for new DayBricks events. -->
+    <string name="settings_target_calendar_title">Calendar for creating activities</string>
+    <!-- Placeholder when no writable target calendar has been selected. -->
+    <string name="settings_choose_writable_calendar">Choose a writable calendar</string>
+    <!-- Summary of a provider calendar. Both values are provider/user data. -->
+    <string name="calendar_name_and_account">%1$s · %2$s</string>
+    <!-- Explanation shown before requesting calendar permissions in Settings. -->
+    <string name="calendar_permission_explanation">Calendar access lets DayBricks show your day and add the activities you confirm.</string>
+    <!-- Button that launches Android's calendar permission prompt. -->
+    <string name="action_allow_calendar_access">Allow calendar access</string>
+    <!-- Opens the Android system page for DayBricks permissions and settings. -->
+    <string name="action_open_android_app_settings">Open Android app settings</string>
+    <!-- Empty state when Android exposes no calendar writable by DayBricks. -->
+    <string name="settings_no_writable_calendars">No writable calendars found. Add a calendar account in Android, then return here.</string>
+    <!-- Settings section for the multiple calendars visible on the DayBricks timeline. -->
+    <string name="settings_display_calendars_title">Calendars to display</string>
+    <!-- Empty state when Android exposes no readable calendar. -->
+    <string name="settings_no_readable_calendars">No readable calendars</string>
+    <!-- Display-filter summary. %1$d is visible count; %2$d is total readable count. -->
+    <string name="settings_calendars_shown">%1$d of %2$d shown</string>
+    <!-- Scope note for the display-calendar filter. -->
+    <string name="settings_calendar_filter_help">This filter affects only the DayBricks timeline. New calendars are shown automatically.</string>
+
+    <!-- ===== Settings: appearance and behavior ===== -->
+
+    <!-- App color-theme setting. -->
+    <string name="settings_theme">Theme</string>
+    <!-- Grammatical answer to settings_theme: follow the Android system light/dark theme. -->
+    <string name="choice_theme_system">System</string>
+    <!-- Grammatical answer to settings_theme: always use the light app theme. -->
+    <string name="choice_theme_light">Light</string>
+    <!-- Grammatical answer to settings_theme: always use the dark app theme. -->
+    <string name="choice_theme_dark">Dark</string>
+    <!-- Setting for where the template panel appears. -->
+    <string name="settings_template_panel">Template panel</string>
+    <!-- Grammatical answer to settings_template_panel: let adaptive layout choose placement. Keep short. -->
+    <string name="choice_template_panel_auto">Auto</string>
+    <!-- Grammatical answer to settings_template_panel: force the panel to the right. Keep short. -->
+    <string name="choice_template_panel_right">Right</string>
+    <!-- Grammatical answer to settings_template_panel: force the panel to the bottom. Keep short. -->
+    <string name="choice_template_panel_bottom">Bottom</string>
+    <!-- Device-level value copied into newly created templates; existing templates are unaffected. -->
+    <string name="settings_default_reminder">Calendar reminder (for new templates)</string>
+
+    <!-- ===== Settings: optional template sync ===== -->
+
+    <!-- Heading for connection to the user's self-hosted template sync service. -->
+    <string name="settings_sync_server_title">Your sync server</string>
+    <!-- Privacy/scope explanation for template synchronization. -->
+    <string name="settings_sync_server_help">Optional. Only templates and shared preferences sync. Your calendar stays on your device.</string>
+    <!-- URL input label. -->
+    <string name="field_server_url">Server URL</string>
+    <!-- Example only; not a real endpoint. -->
+    <string name="server_url_example" translatable="false">https://activities.example.com</string>
+    <!-- Secret authentication-token input label. -->
+    <string name="field_api_token">API token</string>
+    <!-- Explains why an empty token field does not erase the stored credential. -->
+    <string name="api_token_keep_saved_help">Leave blank to keep the saved token.</string>
+    <!-- Saves URL and optionally replaces the stored token. -->
+    <string name="action_save_sync_settings">Save sync settings</string>
+    <!-- Starts template synchronization immediately. -->
+    <string name="action_sync_now">Sync now</string>
+    <!-- Disabled button text while synchronization is running. -->
+    <string name="sync_in_progress">Syncing…</string>
+    <!-- Prefix before a locale-formatted last-success time. %1$s is a SHORT localized time. -->
+    <string name="sync_last_success">Last sync: %1$s</string>
+    <!-- Default sync status when no server is configured and no sync has succeeded. -->
+    <string name="sync_offline_status">Works offline. No account needed.</string>
+
+    <!-- ===== Snackbar, toast and recoverable error messages ===== -->
+
+    <!-- Calendar permission was revoked or denied while reading/writing the provider. -->
+    <string name="error_calendar_permission_required">Calendar permission is required. Enable access in Settings.</string>
+    <!-- Generic persistence failure; intentionally avoids technical details. -->
+    <string name="error_could_not_save">Could not save the change. Please try again.</string>
+    <!-- Confirmation after sync URL/token settings are persisted locally. -->
+    <string name="message_sync_settings_saved">Sync settings saved</string>
+    <!-- Placement confirmation attempted before calendar permission was granted. -->
+    <string name="error_allow_calendar_before_adding">Allow Calendar access before adding an activity.</string>
+    <!-- Placement confirmation attempted without a target writable calendar. -->
+    <string name="error_choose_calendar_for_blocks">Choose a calendar for creating activities.</string>
+    <!-- Placement confirmation attempted with an empty event title. -->
+    <string name="error_block_name_required">Give this activity a name.</string>
+    <!-- Success snackbar after Android Calendar Provider accepted an event. -->
+    <string name="message_block_added">Activity added to your calendar</string>
+    <!-- Toast shown when no installed app can handle the calendar event-view intent. -->
+    <string name="error_install_calendar_app">Install a calendar app to view this event</string>
+    <!-- Safe sync error shown instead of server bodies or credential details. -->
+    <string name="error_sync_failed">Sync failed. Check the connection, server URL and token. Local changes are safe.</string>
+    <!-- Sync validation error when production URL is not HTTPS. -->
+    <string name="error_https_required">Use an HTTPS server URL</string>
+    <!-- Sync validation error when authentication token is missing. -->
+    <string name="error_api_token_required">Enter an API token</string>
+    <!-- Sync validation error when token is missing from Settings. -->
+    <string name="error_api_token_required_in_settings">Enter an API token in Settings</string>
+    <!-- Sync validation error for a remote state exceeding the client safety limit. -->
+    <string name="error_server_state_too_large">Server state is too large</string>
+
+    <!-- ===== Timeline accessibility and event status ===== -->
+
+    <!-- RSVP status: current calendar user accepted the invitation. -->
+    <string name="attendance_accepted">accepted</string>
+    <!-- RSVP status: current calendar user answered maybe/tentative. -->
+    <string name="attendance_tentative">tentative</string>
+    <!-- RSVP status: invitation needs a response. -->
+    <string name="attendance_needs_action">not answered</string>
+    <!-- RSVP status: current calendar user declined the invitation. -->
+    <string name="attendance_declined">declined</string>
+    <!-- RSVP status is absent or not understood. -->
+    <string name="attendance_unknown">status unknown</string>
+    <!-- TalkBack description for an event. %1$s title, %2$s status, %3$s start, %4$s end. -->
+    <string name="event_accessibility_description">%1$s, %2$s, %3$s–%4$s</string>
+    <!-- Prefix in TalkBack indicating an event was created by DayBricks. Product name remains unchanged. -->
+    <string name="event_owned_prefix">DayBricks · %1$s</string>
+
+    <!-- ===== Validation strings that may surface through future field-level errors ===== -->
+
+    <!-- Schema-version validation from imported or synchronized state; normally replaced by a generic UI message today. -->
+    <string name="validation_unsupported_schema">Unsupported schema version</string>
+    <!-- Template identifier validation from imported or synchronized state; normally replaced by a generic UI message today. -->
+    <string name="validation_invalid_template_id">Invalid template ID</string>
+    <!-- Template or preset name validation. The numeric limits are product constraints and must remain unchanged. -->
+    <string name="validation_name_length">Name must contain 1–200 characters</string>
+    <!-- Template duration validation. Both numeric limits are product constraints and must remain unchanged. -->
+    <string name="validation_duration_range">Duration must be 1–720 minutes</string>
+    <!-- Reminder validation. Seven days is the maximum accepted lead time. -->
+    <string name="validation_reminder_range">Reminder must be no more than 7 days</string>
+    <!-- Calendar read/write failure when Android's Calendar Provider is unavailable. -->
+    <string name="validation_calendar_provider_unavailable">Calendar provider unavailable</string>
+    <!-- Calendar write validation when the previously selected target is no longer writable. -->
+    <string name="validation_select_writable_calendar">Select another writable calendar</string>
+    <!-- Synchronization protocol validation when a server returns a malformed entity tag. ETag is an HTTP term and normally stays unchanged. -->
+    <string name="validation_invalid_etag">Invalid ETag</string>
+    <!-- Per-app language. On Android 13+ this selection is shared with Android's app-language settings. -->
+    <string name="settings_language">Language</string>
+    <!-- Grammatical answer to settings_language: follow Android's current system language. -->
+    <string name="choice_language_system">System language</string>
+
+    <!-- First-run flow: language must be chosen before starter templates are installed. -->
+    <string name="onboarding_language_title">Choose your language</string>
+    <string name="onboarding_setup_title">Set up DayBricks</string>
+    <string name="settings_title">Settings</string>
+
+    <!-- User-controlled app-data export. Calendar events and secrets are deliberately excluded. -->
+    <string name="settings_export_title">Export app data</string>
+    <string name="settings_export_help">Exports templates and settings only. Calendar events and the API token are not included.</string>
+    <string name="action_export_json" translatable="false">JSON</string>
+    <string name="action_export_zip" translatable="false">ZIP</string>
+    <string name="message_export_complete">Export saved</string>
+    <string name="error_export_failed">Could not export data</string>
+    <string name="action_import_data">Import data</string>
+    <string name="import_dialog_title">Import DayBricks data</string>
+    <string name="import_dialog_help">Merge keeps local templates and replaces matching ones. Replace all removes local templates first. Imported settings are applied in both cases; calendar selection and API token stay unchanged.</string>
+    <string name="action_merge">Merge</string>
+    <string name="action_replace_all">Replace all</string>
+    <string name="message_import_complete">Import complete</string>
+    <string name="error_import_failed">This file could not be imported</string>
+</resources>

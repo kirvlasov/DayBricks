@@ -1,0 +1,7 @@
+<resources>
+  <string name="emoji_search_short">Ara / kendi emojin</string>
+  <string name="settings_create_activities_in">Etkinlikleri şurada oluştur</string>
+  <string name="settings_backup_restore">Yedekleme ve geri yükleme</string>
+  <string name="action_export_data">Dışa aktar</string>
+  <string name="action_import_short">İçe aktar</string>
+</resources>

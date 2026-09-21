@@ -1,0 +1,5 @@
+<resources>
+  <string name="action_import_data">Leta data</string><string name="import_dialog_title">Leta data ya DayBricks</string>
+  <string name="import_dialog_help">“Unganisha” huhifadhi violezo vya kifaa na kubadilisha vinavyolingana. “Badilisha vyote” huondoa violezo vya kifaa kwanza. Mipangilio huletwa katika hali zote; kalenda na tokeni ya API hazibadiliki.</string>
+  <string name="action_merge">Unganisha</string><string name="action_replace_all">Badilisha vyote</string><string name="message_import_complete">Uletaji umekamilika</string><string name="error_import_failed">Faili hii haikuweza kuletwa</string>
+</resources>

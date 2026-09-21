@@ -1,0 +1,7 @@
+<resources>
+  <string name="emoji_search_short">Szukaj / własne emoji</string>
+  <string name="settings_create_activities_in">Twórz aktywności w</string>
+  <string name="settings_backup_restore">Kopia zapasowa i przywracanie</string>
+  <string name="action_export_data">Eksportuj</string>
+  <string name="action_import_short">Importuj</string>
+</resources>

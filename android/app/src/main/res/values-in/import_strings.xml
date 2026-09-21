@@ -1,0 +1,5 @@
+<resources>
+  <string name="action_import_data">Impor data</string><string name="import_dialog_title">Impor data DayBricks</string>
+  <string name="import_dialog_help">“Gabungkan” mempertahankan templat lokal dan mengganti yang cocok. “Ganti semua” menghapus templat lokal terlebih dahulu. Setelan selalu diimpor; pilihan kalender dan token API tidak berubah.</string>
+  <string name="action_merge">Gabungkan</string><string name="action_replace_all">Ganti semua</string><string name="message_import_complete">Impor selesai</string><string name="error_import_failed">File ini tidak dapat diimpor</string>
+</resources>

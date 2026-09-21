@@ -1,0 +1,5 @@
+<resources>
+  <string name="action_import_data">Import data</string><string name="import_dialog_title">Import data DayBricks</string>
+  <string name="import_dialog_help">“Gabung” mengekalkan templat setempat dan menggantikan yang sepadan. “Ganti semua” memadam templat setempat terlebih dahulu. Tetapan sentiasa diimport; pilihan kalendar dan token API tidak berubah.</string>
+  <string name="action_merge">Gabung</string><string name="action_replace_all">Ganti semua</string><string name="message_import_complete">Import selesai</string><string name="error_import_failed">Fail ini tidak dapat diimport</string>
+</resources>

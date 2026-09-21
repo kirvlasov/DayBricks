@@ -1,0 +1,7 @@
+<resources>
+  <string name="emoji_search_short">खोजें / अपना इमोजी</string>
+  <string name="settings_create_activities_in">इसमें गतिविधियाँ बनाएँ</string>
+  <string name="settings_backup_restore">बैकअप और पुनर्स्थापना</string>
+  <string name="action_export_data">एक्सपोर्ट</string>
+  <string name="action_import_short">इंपोर्ट</string>
+</resources>

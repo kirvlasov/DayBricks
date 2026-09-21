@@ -1,0 +1,7 @@
+<resources>
+  <string name="emoji_search_short">Tafuta / emoji yako</string>
+  <string name="settings_create_activities_in">Unda shughuli katika</string>
+  <string name="settings_backup_restore">Hifadhi na urejeshe</string>
+  <string name="action_export_data">Hamisha</string>
+  <string name="action_import_short">Leta</string>
+</resources>

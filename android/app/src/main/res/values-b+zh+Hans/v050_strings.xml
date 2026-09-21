@@ -1,0 +1,7 @@
+<resources>
+  <string name="emoji_search_short">搜索 / 你的表情</string>
+  <string name="settings_create_activities_in">在此创建活动</string>
+  <string name="settings_backup_restore">备份与恢复</string>
+  <string name="action_export_data">导出</string>
+  <string name="action_import_short">导入</string>
+</resources>

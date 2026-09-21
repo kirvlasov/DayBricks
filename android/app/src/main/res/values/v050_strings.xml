@@ -1,0 +1,7 @@
+<resources>
+  <string name="emoji_search_short">Search / your emoji</string>
+  <string name="settings_create_activities_in">Create activities in</string>
+  <string name="settings_backup_restore">Backup and restore</string>
+  <string name="action_export_data">Export</string>
+  <string name="action_import_short">Import</string>
+</resources>

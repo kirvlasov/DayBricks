@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="delete_event_confirmation">ลบกิจกรรม “%1$s” หรือไม่</string>
+    <string name="delete_event_series_confirmation">ลบกิจกรรมที่เกิดซ้ำ “%1$s” ทั้งชุดหรือไม่</string>
+    <string name="action_open_in_calendar">เปิดในแอปปฏิทิน</string>
+    <string name="action_close_event">ปิด</string>
+    <string name="event_details_all_day">ทั้งวัน</string>
+    <string name="event_details_location">สถานที่</string>
+    <string name="event_details_description">คำอธิบาย</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="delete_event_confirmation">“%1$s” 일정을 삭제할까요?</string>
+    <string name="delete_event_series_confirmation">반복 일정 “%1$s”의 전체 일정을 삭제할까요?</string>
+    <string name="action_open_in_calendar">캘린더 앱에서 열기</string>
+    <string name="action_close_event">닫기</string>
+    <string name="event_details_all_day">종일</string>
+    <string name="event_details_location">위치</string>
+    <string name="event_details_description">설명</string>
+</resources>

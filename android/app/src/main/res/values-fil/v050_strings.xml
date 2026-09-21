@@ -1,0 +1,7 @@
+<resources>
+  <string name="emoji_search_short">Hanap / iyong emoji</string>
+  <string name="settings_create_activities_in">Gumawa ng aktibidad sa</string>
+  <string name="settings_backup_restore">Backup at restore</string>
+  <string name="action_export_data">I-export</string>
+  <string name="action_import_short">I-import</string>
+</resources>

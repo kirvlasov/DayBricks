@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="delete_event_confirmation">Padam acara “%1$s”?</string>
+    <string name="delete_event_series_confirmation">Padam keseluruhan siri acara berulang “%1$s”?</string>
+    <string name="action_open_in_calendar">Buka dalam aplikasi kalendar</string>
+    <string name="action_close_event">Tutup</string>
+    <string name="event_details_all_day">Sepanjang hari</string>
+    <string name="event_details_location">Lokasi</string>
+    <string name="event_details_description">Perihalan</string>
+</resources>

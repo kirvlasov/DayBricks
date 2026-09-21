@@ -1,0 +1,5 @@
+<resources>
+  <string name="action_import_data">Імпортувати дані</string><string name="import_dialog_title">Імпорт даних DayBricks</string>
+  <string name="import_dialog_help">«Об’єднати» збереже локальні шаблони й замінить збіжні. «Замінити все» спочатку видалить локальні шаблони. Налаштування імпортуються в обох випадках; вибір календаря й токен API не змінюються.</string>
+  <string name="action_merge">Об’єднати</string><string name="action_replace_all">Замінити все</string><string name="message_import_complete">Імпорт завершено</string><string name="error_import_failed">Не вдалося імпортувати цей файл</string>
+</resources>

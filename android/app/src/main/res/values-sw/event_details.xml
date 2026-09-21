@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="delete_event_confirmation">Ungependa kufuta tukio “%1$s”?</string>
+    <string name="delete_event_series_confirmation">Ungependa kufuta mfululizo mzima wa tukio linalojirudia “%1$s”?</string>
+    <string name="action_open_in_calendar">Fungua katika programu ya kalenda</string>
+    <string name="action_close_event">Funga</string>
+    <string name="event_details_all_day">Siku nzima</string>
+    <string name="event_details_location">Mahali</string>
+    <string name="event_details_description">Maelezo</string>
+</resources>

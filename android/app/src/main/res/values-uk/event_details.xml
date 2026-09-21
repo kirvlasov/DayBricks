@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="delete_event_confirmation">Видалити подію «%1$s»?</string>
+    <string name="delete_event_series_confirmation">Видалити всю серію повторюваної події «%1$s»?</string>
+    <string name="action_open_in_calendar">Відкрити у застосунку календаря</string>
+    <string name="action_close_event">Закрити</string>
+    <string name="event_details_all_day">Увесь день</string>
+    <string name="event_details_location">Місце</string>
+    <string name="event_details_description">Опис</string>
+</resources>

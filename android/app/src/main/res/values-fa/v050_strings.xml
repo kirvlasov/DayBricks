@@ -1,0 +1,7 @@
+<resources>
+  <string name="emoji_search_short">جستجو / ایموجی شما</string>
+  <string name="settings_create_activities_in">ایجاد فعالیت‌ها در</string>
+  <string name="settings_backup_restore">پشتیبان‌گیری و بازیابی</string>
+  <string name="action_export_data">خروجی</string>
+  <string name="action_import_short">ورودی</string>
+</resources>

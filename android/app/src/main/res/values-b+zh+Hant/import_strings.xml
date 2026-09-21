@@ -1,0 +1,5 @@
+<resources>
+  <string name="action_import_data">匯入資料</string><string name="import_dialog_title">匯入 DayBricks 資料</string>
+  <string name="import_dialog_help">「合併」會保留本機範本並取代相符項目。「全部取代」會先刪除本機範本。兩種方式都會匯入設定；行事曆選擇和 API 權杖保持不變。</string>
+  <string name="action_merge">合併</string><string name="action_replace_all">全部取代</string><string name="message_import_complete">匯入完成</string><string name="error_import_failed">無法匯入此檔案</string>
+</resources>

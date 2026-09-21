@@ -1,0 +1,5 @@
+<resources>
+  <string name="action_import_data">استيراد البيانات</string><string name="import_dialog_title">استيراد بيانات DayBricks</string>
+  <string name="import_dialog_help">يحتفظ «الدمج» بالقوالب المحلية ويستبدل المتطابقة. يحذف «استبدال الكل» القوالب المحلية أولًا. تُستورد الإعدادات في الحالتين، بينما لا يتغير التقويم أو رمز API.</string>
+  <string name="action_merge">دمج</string><string name="action_replace_all">استبدال الكل</string><string name="message_import_complete">اكتمل الاستيراد</string><string name="error_import_failed">تعذّر استيراد هذا الملف</string>
+</resources>

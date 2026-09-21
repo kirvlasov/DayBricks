@@ -1,0 +1,7 @@
+<resources>
+  <string name="emoji_search_short">খুঁজুন / নিজের ইমোজি</string>
+  <string name="settings_create_activities_in">কার্যকলাপ তৈরি করুন এখানে</string>
+  <string name="settings_backup_restore">ব্যাকআপ ও পুনরুদ্ধার</string>
+  <string name="action_export_data">এক্সপোর্ট</string>
+  <string name="action_import_short">ইমপোর্ট</string>
+</resources>

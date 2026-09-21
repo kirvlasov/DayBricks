@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="delete_event_confirmation">Burahin ang event na “%1$s”?</string>
+    <string name="delete_event_series_confirmation">Burahin ang buong serye ng umuulit na event na “%1$s”?</string>
+    <string name="action_open_in_calendar">Buksan sa calendar app</string>
+    <string name="action_close_event">Isara</string>
+    <string name="event_details_all_day">Buong araw</string>
+    <string name="event_details_location">Lokasyon</string>
+    <string name="event_details_description">Paglalarawan</string>
+</resources>

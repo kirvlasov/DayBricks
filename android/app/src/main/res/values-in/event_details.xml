@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="delete_event_confirmation">Hapus acara “%1$s”?</string>
+    <string name="delete_event_series_confirmation">Hapus seluruh rangkaian acara berulang “%1$s”?</string>
+    <string name="action_open_in_calendar">Buka di aplikasi kalender</string>
+    <string name="action_close_event">Tutup</string>
+    <string name="event_details_all_day">Sepanjang hari</string>
+    <string name="event_details_location">Lokasi</string>
+    <string name="event_details_description">Deskripsi</string>
+</resources>

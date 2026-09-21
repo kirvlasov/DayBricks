@@ -1,0 +1,5 @@
+<resources>
+  <string name="action_import_data">데이터 가져오기</string><string name="import_dialog_title">DayBricks 데이터 가져오기</string>
+  <string name="import_dialog_help">‘병합’은 로컬 템플릿을 유지하고 일치하는 항목을 바꿉니다. ‘모두 바꾸기’는 로컬 템플릿을 먼저 삭제합니다. 설정은 두 경우 모두 가져오며 캘린더와 API 토큰은 변경하지 않습니다.</string>
+  <string name="action_merge">병합</string><string name="action_replace_all">모두 바꾸기</string><string name="message_import_complete">가져오기 완료</string><string name="error_import_failed">이 파일을 가져올 수 없습니다</string>
+</resources>

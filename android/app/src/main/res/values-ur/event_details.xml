@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="delete_event_confirmation">ایونٹ «%1$s» حذف کریں؟</string>
+    <string name="delete_event_series_confirmation">بار بار ہونے والے ایونٹ «%1$s» کی پوری سیریز حذف کریں؟</string>
+    <string name="action_open_in_calendar">کیلنڈر ایپ میں کھولیں</string>
+    <string name="action_close_event">بند کریں</string>
+    <string name="event_details_all_day">سارا دن</string>
+    <string name="event_details_location">مقام</string>
+    <string name="event_details_description">تفصیل</string>
+</resources>

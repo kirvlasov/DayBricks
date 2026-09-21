@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="delete_event_confirmation">刪除活動「%1$s」？</string>
+    <string name="delete_event_series_confirmation">刪除整個重複活動系列「%1$s」？</string>
+    <string name="action_open_in_calendar">在日曆應用程式中開啟</string>
+    <string name="action_close_event">關閉</string>
+    <string name="event_details_all_day">全天</string>
+    <string name="event_details_location">地點</string>
+    <string name="event_details_description">說明</string>
+</resources>

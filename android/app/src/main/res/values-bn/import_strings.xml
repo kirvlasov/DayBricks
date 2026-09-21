@@ -1,0 +1,5 @@
+<resources>
+  <string name="action_import_data">ডেটা ইমপোর্ট করুন</string><string name="import_dialog_title">DayBricks ডেটা ইমপোর্ট করুন</string>
+  <string name="import_dialog_help">“একত্র করুন” স্থানীয় টেমপ্লেট রেখে মিলে যাওয়া টেমপ্লেট বদলায়। “সব প্রতিস্থাপন” আগে স্থানীয় টেমপ্লেট মুছে দেয়। উভয় ক্ষেত্রেই সেটিংস ইমপোর্ট হয়; ক্যালেন্ডার ও API টোকেন বদলায় না।</string>
+  <string name="action_merge">একত্র করুন</string><string name="action_replace_all">সব প্রতিস্থাপন</string><string name="message_import_complete">ইমপোর্ট সম্পন্ন</string><string name="error_import_failed">এই ফাইলটি ইমপোর্ট করা যায়নি</string>
+</resources>

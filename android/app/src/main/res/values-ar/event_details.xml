@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="delete_event_confirmation">حذف الحدث «%1$s»؟</string>
+    <string name="delete_event_series_confirmation">حذف سلسلة الأحداث المتكررة «%1$s» بالكامل؟</string>
+    <string name="action_open_in_calendar">فتح في تطبيق التقويم</string>
+    <string name="action_close_event">إغلاق</string>
+    <string name="event_details_all_day">طوال اليوم</string>
+    <string name="event_details_location">الموقع</string>
+    <string name="event_details_description">الوصف</string>
+</resources>

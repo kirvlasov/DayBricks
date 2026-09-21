@@ -1,0 +1,5 @@
+<resources>
+  <string name="action_import_data">データをインポート</string><string name="import_dialog_title">DayBricks データをインポート</string>
+  <string name="import_dialog_help">「統合」は端末内のテンプレートを残し、一致するものを置き換えます。「すべて置換」は端末内のテンプレートを先に削除します。設定はどちらでも取り込まれ、カレンダーと API トークンは変更されません。</string>
+  <string name="action_merge">統合</string><string name="action_replace_all">すべて置換</string><string name="message_import_complete">インポート完了</string><string name="error_import_failed">このファイルをインポートできませんでした</string>
+</resources>

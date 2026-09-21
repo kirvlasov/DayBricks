@@ -1,0 +1,7 @@
+<resources>
+  <string name="emoji_search_short">検索 / 自分の絵文字</string>
+  <string name="settings_create_activities_in">活動の作成先</string>
+  <string name="settings_backup_restore">バックアップと復元</string>
+  <string name="action_export_data">エクスポート</string>
+  <string name="action_import_short">インポート</string>
+</resources>

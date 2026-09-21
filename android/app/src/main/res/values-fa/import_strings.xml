@@ -1,0 +1,5 @@
+<resources>
+  <string name="action_import_data">وارد کردن داده‌ها</string><string name="import_dialog_title">وارد کردن داده‌های DayBricks</string>
+  <string name="import_dialog_help">«ادغام» الگوهای محلی را نگه می‌دارد و موارد یکسان را جایگزین می‌کند. «جایگزینی همه» ابتدا الگوهای محلی را حذف می‌کند. تنظیمات در هر دو حالت وارد می‌شوند؛ تقویم و رمز API تغییر نمی‌کنند.</string>
+  <string name="action_merge">ادغام</string><string name="action_replace_all">جایگزینی همه</string><string name="message_import_complete">وارد کردن کامل شد</string><string name="error_import_failed">این فایل وارد نشد</string>
+</resources>

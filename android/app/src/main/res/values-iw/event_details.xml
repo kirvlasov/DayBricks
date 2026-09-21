@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="delete_event_confirmation">למחוק את האירוע „%1$s”?</string>
+    <string name="delete_event_series_confirmation">למחוק את כל סדרת האירועים החוזרים „%1$s”?</string>
+    <string name="action_open_in_calendar">פתיחה באפליקציית היומן</string>
+    <string name="action_close_event">סגירה</string>
+    <string name="event_details_all_day">יום שלם</string>
+    <string name="event_details_location">מיקום</string>
+    <string name="event_details_description">תיאור</string>
+</resources>

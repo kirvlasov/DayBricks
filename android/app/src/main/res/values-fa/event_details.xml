@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="delete_event_confirmation">رویداد «%1$s» حذف شود؟</string>
+    <string name="delete_event_series_confirmation">کل مجموعهٔ رویدادهای تکراری «%1$s» حذف شود؟</string>
+    <string name="action_open_in_calendar">باز کردن در برنامهٔ تقویم</string>
+    <string name="action_close_event">بستن</string>
+    <string name="event_details_all_day">تمام روز</string>
+    <string name="event_details_location">مکان</string>
+    <string name="event_details_description">توضیحات</string>
+</resources>

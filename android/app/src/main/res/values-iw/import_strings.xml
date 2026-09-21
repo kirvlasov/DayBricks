@@ -1,0 +1,5 @@
+<resources>
+  <string name="action_import_data">ייבוא נתונים</string><string name="import_dialog_title">ייבוא נתוני DayBricks</string>
+  <string name="import_dialog_help">„מיזוג” שומר את התבניות המקומיות ומחליף תבניות תואמות. „החלפת הכול” מוחק תחילה את התבניות המקומיות. ההגדרות מיובאות בשני המצבים; בחירת היומן ואסימון ה-API אינם משתנים.</string>
+  <string name="action_merge">מיזוג</string><string name="action_replace_all">החלפת הכול</string><string name="message_import_complete">הייבוא הושלם</string><string name="error_import_failed">לא ניתן לייבא את הקובץ הזה</string>
+</resources>

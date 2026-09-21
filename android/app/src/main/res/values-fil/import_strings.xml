@@ -1,0 +1,5 @@
+<resources>
+  <string name="action_import_data">Mag-import ng data</string><string name="import_dialog_title">Mag-import ng data ng DayBricks</string>
+  <string name="import_dialog_help">Pinapanatili ng “Pagsamahin” ang mga lokal na template at pinapalitan ang magkatugma. Binubura muna ng “Palitan lahat” ang mga lokal na template. Ini-import ang mga setting sa parehong paraan; hindi nagbabago ang kalendaryo at API token.</string>
+  <string name="action_merge">Pagsamahin</string><string name="action_replace_all">Palitan lahat</string><string name="message_import_complete">Tapos na ang pag-import</string><string name="error_import_failed">Hindi ma-import ang file na ito</string>
+</resources>

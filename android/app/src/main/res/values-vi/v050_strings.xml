@@ -1,0 +1,7 @@
+<resources>
+  <string name="emoji_search_short">Tìm / emoji của bạn</string>
+  <string name="settings_create_activities_in">Tạo hoạt động trong</string>
+  <string name="settings_backup_restore">Sao lưu và khôi phục</string>
+  <string name="action_export_data">Xuất</string>
+  <string name="action_import_short">Nhập</string>
+</resources>

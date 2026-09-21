@@ -1,0 +1,7 @@
+<resources>
+  <string name="emoji_search_short">חיפוש / האימוג׳י שלך</string>
+  <string name="settings_create_activities_in">יצירת פעילויות ב</string>
+  <string name="settings_backup_restore">גיבוי ושחזור</string>
+  <string name="action_export_data">ייצוא</string>
+  <string name="action_import_short">ייבוא</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+  <string name="action_import_data">นำเข้าข้อมูล</string><string name="import_dialog_title">นำเข้าข้อมูล DayBricks</string>
+  <string name="import_dialog_help">“ผสาน” จะเก็บเทมเพลตในเครื่องและแทนที่รายการที่ตรงกัน “แทนที่ทั้งหมด” จะลบเทมเพลตในเครื่องก่อน การตั้งค่าจะถูกนำเข้าในทั้งสองกรณี ส่วนปฏิทินและโทเค็น API จะไม่เปลี่ยน</string>
+  <string name="action_merge">ผสาน</string><string name="action_replace_all">แทนที่ทั้งหมด</string><string name="message_import_complete">นำเข้าเสร็จแล้ว</string><string name="error_import_failed">นำเข้าไฟล์นี้ไม่ได้</string>
+</resources>

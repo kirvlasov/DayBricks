@@ -1,0 +1,7 @@
+<resources>
+  <string name="emoji_search_short">Пошук / свій емодзі</string>
+  <string name="settings_create_activities_in">Створювати активності в</string>
+  <string name="settings_backup_restore">Резервна копія та відновлення</string>
+  <string name="action_export_data">Експорт</string>
+  <string name="action_import_short">Імпорт</string>
+</resources>

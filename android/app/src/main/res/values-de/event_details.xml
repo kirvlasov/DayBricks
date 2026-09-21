@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="delete_event_confirmation">Termin „%1$s“ löschen?</string>
+    <string name="delete_event_series_confirmation">Die gesamte Terminserie „%1$s“ löschen?</string>
+    <string name="action_open_in_calendar">In Kalender-App öffnen</string>
+    <string name="action_close_event">Schließen</string>
+    <string name="event_details_all_day">Ganztägig</string>
+    <string name="event_details_location">Ort</string>
+    <string name="event_details_description">Beschreibung</string>
+</resources>

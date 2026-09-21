@@ -1,0 +1,5 @@
+<resources>
+  <string name="action_import_data">डेटा इंपोर्ट करें</string><string name="import_dialog_title">DayBricks डेटा इंपोर्ट करें</string>
+  <string name="import_dialog_help">“मर्ज” स्थानीय टेम्प्लेट रखता है और मेल खाने वाले टेम्प्लेट बदलता है। “सभी बदलें” पहले स्थानीय टेम्प्लेट हटाता है। दोनों स्थितियों में सेटिंग इंपोर्ट होती हैं; कैलेंडर और API टोकन नहीं बदलते।</string>
+  <string name="action_merge">मर्ज करें</string><string name="action_replace_all">सभी बदलें</string><string name="message_import_complete">इंपोर्ट पूरा हुआ</string><string name="error_import_failed">यह फ़ाइल इंपोर्ट नहीं की जा सकी</string>
+</resources>

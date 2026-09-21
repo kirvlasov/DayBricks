@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="delete_event_confirmation">“%1$s” इवेंट मिटाएँ?</string>
+    <string name="delete_event_series_confirmation">“%1$s” की पूरी आवर्ती श्रृंखला मिटाएँ?</string>
+    <string name="action_open_in_calendar">कैलेंडर ऐप में खोलें</string>
+    <string name="action_close_event">बंद करें</string>
+    <string name="event_details_all_day">पूरा दिन</string>
+    <string name="event_details_location">स्थान</string>
+    <string name="event_details_description">विवरण</string>
+</resources>

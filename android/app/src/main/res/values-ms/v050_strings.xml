@@ -1,0 +1,7 @@
+<resources>
+  <string name="emoji_search_short">Cari / emoji anda</string>
+  <string name="settings_create_activities_in">Cipta aktiviti dalam</string>
+  <string name="settings_backup_restore">Sandaran dan pemulihan</string>
+  <string name="action_export_data">Eksport</string>
+  <string name="action_import_short">Import</string>
+</resources>

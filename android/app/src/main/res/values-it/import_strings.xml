@@ -1,0 +1,5 @@
+<resources>
+  <string name="action_import_data">Importa dati</string><string name="import_dialog_title">Importa dati DayBricks</string>
+  <string name="import_dialog_help">“Unisci” conserva i modelli locali e sostituisce quelli corrispondenti. “Sostituisci tutto” elimina prima i modelli locali. Le impostazioni vengono sempre importate; calendario e token API restano invariati.</string>
+  <string name="action_merge">Unisci</string><string name="action_replace_all">Sostituisci tutto</string><string name="message_import_complete">Importazione completata</string><string name="error_import_failed">Impossibile importare questo file</string>
+</resources>

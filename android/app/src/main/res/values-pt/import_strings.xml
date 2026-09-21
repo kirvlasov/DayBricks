@@ -1,0 +1,9 @@
+<resources>
+  <string name="action_import_data">Importar dados</string>
+  <string name="import_dialog_title">Importar dados do DayBricks</string>
+  <string name="import_dialog_help">«Unir» mantém os modelos locais e substitui os que coincidirem. «Substituir tudo» elimina primeiro os modelos locais. As definições são importadas em ambos os casos; a seleção do calendário e o token da API não mudam.</string>
+  <string name="action_merge">Unir</string>
+  <string name="action_replace_all">Substituir tudo</string>
+  <string name="message_import_complete">Importação concluída</string>
+  <string name="error_import_failed">Não foi possível importar este ficheiro</string>
+</resources>

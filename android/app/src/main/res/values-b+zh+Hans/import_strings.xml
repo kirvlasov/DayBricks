@@ -1,0 +1,5 @@
+<resources>
+  <string name="action_import_data">导入数据</string><string name="import_dialog_title">导入 DayBricks 数据</string>
+  <string name="import_dialog_help">“合并”会保留本地模板并替换匹配项。“全部替换”会先删除本地模板。两种方式都会导入设置；日历选择和 API 令牌保持不变。</string>
+  <string name="action_merge">合并</string><string name="action_replace_all">全部替换</string><string name="message_import_complete">导入完成</string><string name="error_import_failed">无法导入此文件</string>
+</resources>

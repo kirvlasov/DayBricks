@@ -1,0 +1,5 @@
+<resources>
+  <string name="action_import_data">Importar datos</string><string name="import_dialog_title">Importar datos de DayBricks</string>
+  <string name="import_dialog_help">«Combinar» conserva las plantillas locales y reemplaza las coincidentes. «Reemplazar todo» elimina primero las plantillas locales. Los ajustes se importan en ambos casos; el calendario y el token de API no cambian.</string>
+  <string name="action_merge">Combinar</string><string name="action_replace_all">Reemplazar todo</string><string name="message_import_complete">Importación completada</string><string name="error_import_failed">No se pudo importar este archivo</string>
+</resources>

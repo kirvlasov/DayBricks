@@ -1,0 +1,7 @@
+<resources>
+  <string name="emoji_search_short">搜尋 / 你的表情</string>
+  <string name="settings_create_activities_in">在此建立活動</string>
+  <string name="settings_backup_restore">備份與還原</string>
+  <string name="action_export_data">匯出</string>
+  <string name="action_import_short">匯入</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="delete_event_confirmation">“%1$s” etkinliği silinsin mi?</string>
+    <string name="delete_event_series_confirmation">Tekrarlanan “%1$s” etkinliğinin tüm serisi silinsin mi?</string>
+    <string name="action_open_in_calendar">Takvim uygulamasında aç</string>
+    <string name="action_close_event">Kapat</string>
+    <string name="event_details_all_day">Tüm gün</string>
+    <string name="event_details_location">Konum</string>
+    <string name="event_details_description">Açıklama</string>
+</resources>

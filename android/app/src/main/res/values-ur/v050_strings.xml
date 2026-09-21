@@ -1,0 +1,7 @@
+<resources>
+  <string name="emoji_search_short">تلاش / اپنا ایموجی</string>
+  <string name="settings_create_activities_in">سرگرمیاں یہاں بنائیں</string>
+  <string name="settings_backup_restore">بیک اپ اور بحالی</string>
+  <string name="action_export_data">برآمد</string>
+  <string name="action_import_short">درآمد</string>
+</resources>

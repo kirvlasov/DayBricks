@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="delete_event_confirmation">¿Eliminar el evento «%1$s»?</string>
+    <string name="delete_event_series_confirmation">¿Eliminar toda la serie de eventos recurrentes «%1$s»?</string>
+    <string name="action_open_in_calendar">Abrir en la aplicación de calendario</string>
+    <string name="action_close_event">Cerrar</string>
+    <string name="event_details_all_day">Todo el día</string>
+    <string name="event_details_location">Ubicación</string>
+    <string name="event_details_description">Descripción</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+  <string name="emoji_search_short">검색 / 내 이모지</string>
+  <string name="settings_create_activities_in">활동을 만들 캘린더</string>
+  <string name="settings_backup_restore">백업 및 복원</string>
+  <string name="action_export_data">내보내기</string>
+  <string name="action_import_short">가져오기</string>
+</resources>

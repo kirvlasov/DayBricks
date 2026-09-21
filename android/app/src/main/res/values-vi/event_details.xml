@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="delete_event_confirmation">Xóa sự kiện “%1$s”?</string>
+    <string name="delete_event_series_confirmation">Xóa toàn bộ chuỗi sự kiện lặp lại “%1$s”?</string>
+    <string name="action_open_in_calendar">Mở trong ứng dụng lịch</string>
+    <string name="action_close_event">Đóng</string>
+    <string name="event_details_all_day">Cả ngày</string>
+    <string name="event_details_location">Địa điểm</string>
+    <string name="event_details_description">Mô tả</string>
+</resources>

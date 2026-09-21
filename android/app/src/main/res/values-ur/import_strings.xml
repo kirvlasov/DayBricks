@@ -1,0 +1,5 @@
+<resources>
+  <string name="action_import_data">ڈیٹا درآمد کریں</string><string name="import_dialog_title">DayBricks ڈیٹا درآمد کریں</string>
+  <string name="import_dialog_help">”ضم کریں“ مقامی ٹیمپلیٹس کو برقرار رکھتا اور مماثل ٹیمپلیٹس بدلتا ہے۔ ”سب بدلیں“ پہلے مقامی ٹیمپلیٹس حذف کرتا ہے۔ دونوں صورتوں میں ترتیبات درآمد ہوتی ہیں؛ کیلنڈر اور API ٹوکن تبدیل نہیں ہوتے۔</string>
+  <string name="action_merge">ضم کریں</string><string name="action_replace_all">سب بدلیں</string><string name="message_import_complete">درآمد مکمل ہوئی</string><string name="error_import_failed">یہ فائل درآمد نہیں ہو سکی</string>
+</resources>

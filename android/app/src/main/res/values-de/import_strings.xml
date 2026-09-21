@@ -1,0 +1,5 @@
+<resources>
+  <string name="action_import_data">Daten importieren</string><string name="import_dialog_title">DayBricks-Daten importieren</string>
+  <string name="import_dialog_help">„Zusammenführen“ behält lokale Vorlagen und ersetzt übereinstimmende. „Alle ersetzen“ löscht zuerst lokale Vorlagen. Einstellungen werden immer importiert; Kalenderauswahl und API-Token bleiben unverändert.</string>
+  <string name="action_merge">Zusammenführen</string><string name="action_replace_all">Alle ersetzen</string><string name="message_import_complete">Import abgeschlossen</string><string name="error_import_failed">Diese Datei konnte nicht importiert werden</string>
+</resources>
