@@ -1,0 +1,1 @@
+First F-Droid release: day timeline, reusable activity templates, reminders, event details, data export and import, multiple interface languages, and optional self-hosted template sync.

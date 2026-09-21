@@ -1,0 +1,5 @@
+DayBricks is a day planner that works with your device's calendar. Choose an activity template, move the timeline to the time you want, adjust the duration, and create a regular calendar event.
+
+Browse timed, all-day, recurring, and overlapping events on a single-day timeline. Open an event's details or hand it off to a calendar app. Create templates with optional activity options, descriptions, emoji, durations, and reminders. The app also offers light and dark themes, adaptable layouts, and a choice of interface languages.
+
+DayBricks works offline and needs no DayBricks account. Templates and settings can be exported as JSON and imported later. You can optionally sync templates through your own Go server. Calendar events are never sent to that server; your Android calendar provider and calendar account handle them.

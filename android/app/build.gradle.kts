@@ -61,6 +61,11 @@ android {
         }
     }
     packaging { resources.excludes += "/META-INF/{AL2.0,LGPL2.1}" }
+    // F-Droid rejects the encrypted Google Play dependency signing block.
+    dependenciesInfo {
+        includeInApk = false
+        includeInBundle = false
+    }
     // Every supported locale must be installed because the app can switch languages at runtime.
     bundle { language { enableSplit = false } }
     lint { abortOnError = true; checkReleaseBuilds = true }
