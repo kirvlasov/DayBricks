@@ -12,7 +12,8 @@ jobs:
           distribution: temurin
           java-version: '21'
       - name: Install pinned Android SDK packages
-        run: "$ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager" 'platforms;android-37' 'build-tools;36.0.0'
+        run: |
+          "$ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager" 'platforms;android-37' 'build-tools;36.0.0'
       - name: Compile, tests, lint and APK (strict dependency verification)
         working-directory: android
         run: |
